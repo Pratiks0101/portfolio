@@ -17,9 +17,7 @@ export default function Navbar() {
         </ul>
 
         <div className="flex items-center gap-4">
-            {/* Alag se bana Theme Toggle Button Yahan Integrated Hai */}
             <ThemeToggle />
-
             <a href="#contact" className="hidden sm:inline-block px-5 py-2 rounded-xl bg-[#ff3258] text-white font-medium transition hover:opacity-90">
             Contact Me
             </a>
